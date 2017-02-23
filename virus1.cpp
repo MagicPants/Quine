@@ -32,6 +32,6 @@ void writeFile(string victimFile){
 }
 
 int main(int argc, char ** argv) {
-    writeFile(argv[2]);
+    writeFile(argv[1]);
     return 0;
 }
